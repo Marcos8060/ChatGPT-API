@@ -15,7 +15,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex">
-          <SideBar />
+          <div className="w-2/12">
+            <SideBar />
+          </div>
           <div className="bg-[#343541] flex-1">{children}</div>
         </div>
       </body>

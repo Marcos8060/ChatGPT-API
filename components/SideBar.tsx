@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import NewChat from "./NewChat";
 
 const SideBar = () => {
   return (
-    <div>SideBar</div>
-  )
-}
+    <div className="p-2 flex flex-col h-screen">
+      <div className="flex-1">
+        <div>
+          <NewChat />
 
-export default SideBar
+          <div>{/* Model selection */}</div>
+
+          {/* map the chat rows */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SideBar;

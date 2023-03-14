@@ -4,7 +4,7 @@ import React from 'react'
 
 const NewChat = () => {
   return (
-    <section className="flex items-center justify-center space-x-2 border-gray-700 border p-2">
+    <section className="chatRow p-2 rounded">
         <AiOutlinePlus />
         <p>New Chat</p>
     </section>

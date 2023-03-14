@@ -15,4 +15,7 @@
     align-items: center;
     justify-content: center;
     border: 2px solid black;
+    border-color: gray;
+    border-radius: 4px;
+    cursor: pointer;
 }

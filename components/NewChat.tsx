@@ -4,7 +4,7 @@ import React from 'react'
 
 const NewChat = () => {
   return (
-    <section className="chatRow p-2 rounded">
+    <section className="chatRow p-2 space-x-2">
         <AiOutlinePlus />
         <p>New Chat</p>
     </section>
